@@ -1876,11 +1876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloaded\\Karel\\fclanov\\fclanov\\fclanov.csproj",
+      "projectUniqueName": "D:\\Gitkraken_Repo\\fclanov\\fclanov\\fclanov.csproj",
       "projectName": "fclanov",
-      "projectPath": "D:\\Downloaded\\Karel\\fclanov\\fclanov\\fclanov.csproj",
+      "projectPath": "D:\\Gitkraken_Repo\\fclanov\\fclanov\\fclanov.csproj",
       "packagesPath": "C:\\Users\\Brian Furlong\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloaded\\Karel\\fclanov\\fclanov\\obj\\",
+      "outputPath": "D:\\Gitkraken_Repo\\fclanov\\fclanov\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

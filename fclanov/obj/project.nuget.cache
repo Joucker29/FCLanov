@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bup+OYS6CgsSyAsgyRjJaYyAlhHKEvqh4No9qhypNE4rIlMzHTOx+mwlPkEYb492zktZctcbDWTn8kZdCMrEqw==",
+  "dgSpecHash": "+qca1RzWMsF5WivcFQgNS+JEppNSeoeNTYHMfnPVZuNn/QHKFRM4uVTrB6Eqp1Z2/k6evazx2TLlYjxeCX18YA==",
   "success": true,
-  "projectFilePath": "D:\\Downloaded\\Karel\\fclanov\\fclanov\\fclanov.csproj",
+  "projectFilePath": "D:\\Gitkraken_Repo\\fclanov\\fclanov\\fclanov.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian Furlong\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Brian Furlong\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
