@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pocitac.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello-66aa889a/css/fontello.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auhor" content="Karel Capoušek">
+    <link rel="icon" href="fotky/logo.png" type="image/png">
+    <title>FC Lánov</title>
+    <script>
+        function show_menu() {
+            let e = document.getElementById('menu'); let ec = document.getElementById("ikonka_menu")
+            if (e.className == "hide-menu") { e.className = ""; ec.className = "icon-up-open" }
+            else { e.className = "hide-menu"; ec.className = "icon-down-open"; }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div><a href="index.html">
+                <article><div>TJ FC Lánov</div><img src="fotky/logo.png" alt="logo"></article>
+                </a></div>
+            <span id="ikonka_menu" class="icon-down-open" onclick="show_menu()"></span>
+        </header>
+
+        <nav id="menu" class="hide-menu">
+            <div class="menu-item">
+                <a class="icon-home hover-underline-animation" href="index.html">Úvod</a>
+            </div>
+
+            <div class="menu-item">
+                <a class="icon-food hover-underline-animation" href="muzstva.html">Lanovská mužstva</a>
+                <div class="menu-subitem">
+                    <a class="hover-underline-animation" href="muzstva.html#ml.pripravka">Mladší přípravka</a>
+                    <a class="hover-underline-animation" href="muzstva.html#st.pripravka">Starší přípravka</a>
+                    <a class="hover-underline-animation" href="muzstva.html#ml.zaci">Mladší žáci</a>
+                    <a class="hover-underline-animation" href="muzstva.html#st.zaci">Starší žácí</a>
+                    <a class="hover-underline-animation" href="muzstva.html#st.dorost">Starší dorostenci</a>
+                    <a class="hover-underline-animation" href="muzstva.html#a.muzstvo">A mužstvo</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <a class="icon-food hover-underline-animation" href="nadchazejici.html">Nadcházející zápasy</a>
+                <div class="menu-subitem">
+                    <a class="hover-underline-animation" href="nadchazejici.html#ml.pripravka">Mladší přípravka</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.pripravka">Starší přípravka</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#ml.zaci">Mladší žáci</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.zaci">Starší žácí</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.dorost">Starší dorostenci</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#a.muzstvo">A mužstvo</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <a class="icon-food hover-underline-animation" href="odehrane.html">Odehrané zápasy</a>
+                <div class="menu-subitem">
+                    <a class="hover-underline-animation" href="odehrane.html#ml.pripravka">Mladší přípravka</a>
+                    <a class="hover-underline-animation" href="odehrane.html#st.pripravka">Starší přípravka</a>
+                    <a class="hover-underline-animation" href="odehrane.html#ml.zaci">Mladší žáci</a>
+                    <a class="hover-underline-animation" href="odehrane.html#st.zaci">Starší žácí</a>
+                    <a class="hover-underline-animation" href="odehrane.html#st.dorost">Starší dorostenci</a>
+                    <a class="hover-underline-animation" href="odehrane.html#a.muzstvo">A mužstvo</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <a class="icon-food hover-underline-animation" href="fotky.html">Fotogalerie</a>
+                <div class="menu-subitem">
+                    <a class="hover-underline-animation" href="nadchazejici.html#ml.pripravka">Mladší přípravka</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.pripravka">Starší přípravka</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#ml.zaci">Mladší žáci</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.zaci">Starší žácí</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#st.dorost">Starší dorostenci</a>
+                    <a class="hover-underline-animation" href="nadchazejici.html#a.muzstvo">A mužstvo</a>
+                </div>
+            </div>
+
+
+           
+
+            <div class="menu-item">
+                <a class="icon-user hover-underline-animation" href="hospoda.html">Hospůdka u hřiště</a>
+            </div>
+
+            <div class="menu-item">
+                <a class="icon-user hover-underline-animation" href="kontakty.html">Kontakty</a>
+            </div>
+        </nav>
+
+        <aside>
+            <div>
+                <a class="hover-underline-animation" href="hospoda.html#nacepu">Na čepu</a>
+                <a class="hover-underline-animation" href="hospoda.html#lednice">Z lednice</a>
+                <a class="hover-underline-animation" href="hospoda.html#teplenapoje">Teplé nápoje</a>
+                <a class="hover-underline-animation" href="hospoda.html#pochutiny">Něco na chuť</a>
+                <a class="hover-underline-animation" href="hospoda.html#drinky">Míchané drinky</a>
+            </div>
+        </aside>
+
+
+
+
+        <main class="prava">
+            <article>
+                <section class="listek" id="nacepu">
+                    <h2>Na čepu 0,5 / 0,3 l</h2>
+                    <p>Radegast 12°</p>
+                    <p class="cena">35 ,- / 23 ,-</p>
+                    <p>Kozel 11°</p>
+                    <p class="cena">32 ,- / 22 ,-</p>
+                    <p>Kozel černý</p>
+                    <p class="cena">35 ,- / 22 ,-</p>
+                    <p>Kozel řezaný</p>
+                    <p class="cena">35 ,- / 22 ,-</p>
+                    <p>Radegast 10°</p>
+                    <p class="cena">32 ,- / 22 ,-</p>
+                    <p>Plzeň</p>
+                    <p class="cena">44 ,- / 30 ,-</p>
+                    <p>Birell pomelo grep</p>
+                    <p class="cena">38 ,- / 25 ,-</p>
+                    <p>Točená limča</p>
+                    <p class="cena">35 ,- / 21 ,-</p>
+
+                </section>
+            </article>
+
+
+
+            <article>
+                <section class="listek" id="lednice">
+                    <h2>Osvěžení z lednice</h2>
+                    <p>Plzeň - lahvové</p>
+                    <p class="cena">37,- + 3,- láhev</p>
+                    <p>Birell světlý - lahvové</p>
+                    <p class="cena">30,- + 3,- láhev</p>
+                    <p>Kingswood apple cider</p>
+                    <p class="cena">38,-</p>
+                    <p>Frisco dle nabídky</p>
+                    <p class="cena">38,-</p>
+                    <p>Birell dle nabídky</p>
+                    <p class="cena">38,-</p>
+                    <p>Redbull</p>
+                    <p class="cena">50,-</p>
+                    <p>Koli limonády dle nabídky</p>
+                    <p class="cena">35,-</p>
+                    <p>Voda prlivá / neperlivá</p>
+                    <p class="cena">25,-</p>
+
+
+                </section>
+            </article>
+
+            <article>
+                <section class="listek" id="teplenapoje">
+                    <h2>Teplé nápoje</h2>
+                    <p>Espresso s mlékem</p>
+                    <p class="cena">35,-</p>
+                    <p>Turecká káva</p>
+                    <p class="cena">30,-</p>
+                    <p>Cappuccino</p>
+                    <p class="cena">45,-</p>
+                    <p>Latte macchiato</p>
+                    <p class="cena">45,-</p>
+                    <p>Horká čokoláda se šlehačkou</p>
+                    <p class="cena">30,-</p>
+                    <p>Čaje dle nabídky</p>
+                    <p class="cena">30,-</p>
+                    <p>Horké jablko / hruška</p>
+                    <p class="cena">30,-</p>
+                    <p>Horká griotka</p>
+                    <p class="cena">45,-</p>
+                    <p>Grog</p>
+                    <p class="cena">45,-</p>
+                    <p>Svařené víno</p>
+                    <p class="cena">50,-</p>
+                </section>
+            </article>
+
+
+            <article>
+                <section class="listek" id="pochutiny">
+                    <h2>Něco na chuť</h2>
+                    <p>Párek v rohlíku</p>
+                    <p class="cena">29,-</p>
+                    <p>Párek na tácek 2 ks</p>
+                    <p class="cena">60,-</p>
+                    <p>Nakládaný hermelín + pečivo</p>
+                    <p class="cena">75,-</p>
+                    <p>Utopenec + pečivo</p>
+                    <p class="cena">50,-</p>
+                    <p>Korbáčik 2 ks</p>
+                    <p class="cena">15,-</p>
+                </section>
+            </article>
+
+            <article>
+                <section class="listek" id="drinky">
+                    <h2>Míchané drinky 0,2 l</h2>
+                    <p>Aperol spritz</p>
+                    <p class="cena">99,-</p>
+                    <p>Cuba libre</p>
+                    <p class="cena">65,-</p>
+                    <p>Bavorák</p>
+                    <p class="cena">55,-</p>
+                    <p>Beton</p>
+                    <p class="cena">55,-</p>
+                    <p>Captain morgan & cola</p>
+                    <p class="cena">65,-</p>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy;Karel Capoušek - TJ FC Lánov 2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>

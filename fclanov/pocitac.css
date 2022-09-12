@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --tvmodra:#3c2dac;
+    --cervena: #D90416;
+    --bila: #F2F2F2;
+    --vyblelda_cerna: #0d0d0dbd;
+
+}
+
+/* Body a html */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    min-height: 100vmin;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(fotky/pozadi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Nadpisy */
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;
+    text-align: center;
+    color: white; 
+    text-shadow: 2px 2px var(--tvmodra);
+    grid-column: 1 / 3;
+    
+}
+
+/* Header */
+
+header {
+    color: rgb(255, 255, 255);
+    grid-row: 1;
+    grid-column: 1 / 3;
+    position: relative;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow:  4px 4px var(--tvmodra);
+}
+
+header > * {
+    display: inline-block;
+}
+
+header article{
+    display: flex;
+    flex-direction: row;
+
+}
+header article div {
+    padding-top: 16%;
+}
+
+header > div div {
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    height: max-content;
+}
+
+header img {
+    width: 3em;
+}
+
+
+/* Container */
+
+#container {
+    margin: 1em auto;
+    max-width: 1000px;
+    background-color: var(--vyblelda_cerna);
+    min-height: calc(100vmin - 2em);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+#container > * {
+    padding: 2rem;
+}
+
+/* Main */
+
+main {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    color: var(--bila);
+    
+}
+
+main.prava {
+    grid-column: 2;
+}
+
+/* Article */
+article {
+    grid-column: 1 / 3;
+}
+
+article section {
+    width: 100%;
+    color: var(--bila);
+    padding: 0;
+}
+
+article section p {
+    margin: 0;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+
+*.listek {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    padding: 0;
+
+}
+
+section.muzstvo {
+    padding: 1em;
+    margin: 0 auto;
+    width: calc(700px - 2em);
+    height: calc(525px - 2em);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(fotky/tabulka.jpg);
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+section.muzstvo > div {
+    display: grid;
+}
+
+section.muzstvo div.sloupce-2 {
+    grid-template-columns: 50% 50%;
+}
+
+section.muzstvo div.sloupce-4 {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+section.muzstvo div.sloupce-1 {
+    grid-template-columns: 100%;
+}
+
+section.muzstvo img {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--bila);
+    border:var(--cervena) 2px solid;
+    height: 4em;
+    width: 4em;
+    border-radius:75px;
+    border-radius: 75px;
+    z-index: 0;
+    text-align: center;
+    position: relative;
+}
+
+
+.lavicka {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+
+
+
+section.lavicka img {
+    display: block; 
+    background-color: var(--bila);
+    border:var(--cervena) 2px solid;
+    height: 4em;
+    width: 4em;
+    border-radius:75px;
+    border-radius: 75px;
+    z-index: 0;
+    text-align: center;
+    position: relative;
+}
+
+.image-text-label {
+    color: white;
+    font-size: 0.8em;
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+}
+
+/* Aside */
+
+aside {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+aside div {
+    margin-top: 4em;
+    position: sticky;
+    top: 1em;
+}
+
+aside a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    width: calc(100% - 2em);
+    background-color: var(--tvmodra);
+    text-align: center;
+    color: var(--bila);
+    padding: 1em;
+}
+
+aside a:hover {
+    background-color:var(--cervena);
+}
+
+/* Nav */
+
+#menu {
+    z-index: 2;
+    text-align: center;
+    width: max-content;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    background-color: var(--tvmodra);
+    padding: 0 !important;
+    width: 100%;
+    
+
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--bila);
+    text-align: center;
+    color:var(--bila);
+    padding: 1em;
+}
+
+#menu a:hover {
+    background-color: var(--cervena);
+}
+
+.menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-item > a {
+    display: inline-block;
+    height: 100%;
+}
+
+.menu-item a:hover {
+    background-color: #F2CDA0;
+}
+
+.menu-subitem {
+    display: none;
+    width: 100%;
+    background-color: var(--tvmodra);
+    position: absolute;
+}
+
+.menu-subitem > a {
+    display: block;
+}
+
+.menu-item:hover .menu-subitem {
+    display: block;
+}
+
+
+.hide-team {
+    display: none !important;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bila);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+
+
+/* Tabble */
+
+table.blueTable {
+    background-color: #EEEEEE;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+table.blueTable tbody td {
+    font-size: 17px;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+
+
+}
+
+
+table.blueTable thead {
+    background: -moz-linear-gradient(top, #327cad 15%, #327cad 66%, #3c2dac 100%);
+    background: -webkit-linear-gradient(top, #327cad 15%, #327cad 66%, #3c2dac 100%);
+    background: linear-gradient(top bottom, #327cad 15%, #327cad 66%, #3c2dac 100%);
+}
+
+
+table.blueTable thead th {
+    font-size: 17px;
+    color:var(--bila);
+    border-left: 2px solid var(--bila);
+}
+
+
+
+/* Footer */
+
+footer {
+    grid-column: 1 / 3;
+    color: var(--bila);
+    text-align: center;
+    grid-row: 4;
+    padding-top: 0 !important;
+}
+
+/* Lístek */
+
+.cena {
+    text-align: right;
+    margin-left: 2em;
+}
+
+
+.podtrzeni {
+    border-bottom:3px var(--tvmodra) solid;
+    grid-column: 1 / 3;
+    padding-top: 20px;
+}
+
+/* Fotografie */
+
+.fotky {
+    text-align: center;
+}
+
+.fotky img {
+    border: solid white 1px;
+    width: 19em;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* Mapa */
+
+.mapa {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Kontakty */
+
+
+
+
+.stred {
+    display: block;
+    margin: 0 auto;
+    width: min-content;
+}
+
+
+
+section .kontakty {
+    padding: 1em;
+    margin: 0 auto;
+    width: calc(700px - 2em);
+    height: calc(525px - 2em);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+
+}
+
