@@ -71,6 +71,11 @@ namespace fclanov.Controllers
             return View();
         }
 
+        public IActionResult kontakty()
+        {
+            return View();
+        }
+
 
 
 
