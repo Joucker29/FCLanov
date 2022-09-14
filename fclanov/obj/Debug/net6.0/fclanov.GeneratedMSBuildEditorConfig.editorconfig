@@ -8,65 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = fclanov
 build_property.RootNamespace = fclanov
-build_property.ProjectDir = C:\Users\Admin\Desktop\FCLanov\fclanov\
+build_property.ProjectDir = C:\FCLanov\fclanov\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\FCLanov\fclanov
+build_property.MSBuildProjectDirectory = C:\FCLanov\fclanov
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/amuzstvo.cshtml]
+[C:/FCLanov/fclanov/Views/Home/amuzstvo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhbXV6c3R2by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/hospoda.cshtml]
+[C:/FCLanov/fclanov/Views/Home/hospoda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxob3Nwb2RhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/Index.cshtml]
+[C:/FCLanov/fclanov/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/kontakty.cshtml]
+[C:/FCLanov/fclanov/Views/Home/kontakty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxrb250YWt0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/mldorost.cshtml]
+[C:/FCLanov/fclanov/Views/Home/mldorost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtbGRvcm9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/mlpripravka.cshtml]
+[C:/FCLanov/fclanov/Views/Home/mlpripravka.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtbHByaXByYXZrYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/mlzaci.cshtml]
+[C:/FCLanov/fclanov/Views/Home/mlzaci.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtbHphY2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/stpripravka.cshtml]
+[C:/FCLanov/fclanov/Views/Home/stpripravka.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdHByaXByYXZrYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Home/stzaci.cshtml]
+[C:/FCLanov/fclanov/Views/Home/stzaci.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdHphY2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Shared/Error.cshtml]
+[C:/FCLanov/fclanov/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/FCLanov/fclanov/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/_ViewImports.cshtml]
+[C:/FCLanov/fclanov/Views/Users/prihlaseni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNccHJpaGxhc2VuaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FCLanov/fclanov/Views/Users/registrovani.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNccmVnaXN0cm92YW5pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FCLanov/fclanov/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/_ViewStart.cshtml]
+[C:/FCLanov/fclanov/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FCLanov/fclanov/Views/Shared/_Layout.cshtml]
+[C:/FCLanov/fclanov/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-af0wagihye

@@ -5,7 +5,7 @@ namespace fclanov.Data
 {
     public class FclanovData : DbContext
     {
-        public DbSet<Models.Admin> Admins { get; set; }
+        public DbSet<Models.Users> Users { get; set; }
 
 
 

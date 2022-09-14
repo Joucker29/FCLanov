@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\FCLanov\\fclanov\\fclanov.csproj": {}
+    "C:\\FCLanov\\fclanov\\fclanov.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\FCLanov\\fclanov\\fclanov.csproj": {
+    "C:\\FCLanov\\fclanov\\fclanov.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\FCLanov\\fclanov\\fclanov.csproj",
+        "projectUniqueName": "C:\\FCLanov\\fclanov\\fclanov.csproj",
         "projectName": "fclanov",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\FCLanov\\fclanov\\fclanov.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\FCLanov\\fclanov\\obj\\",
+        "projectPath": "C:\\FCLanov\\fclanov\\fclanov.csproj",
+        "packagesPath": "C:\\Users\\furlong\\.nuget\\packages\\",
+        "outputPath": "C:\\FCLanov\\fclanov\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\furlong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.8, )"
@@ -79,7 +86,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -91,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
